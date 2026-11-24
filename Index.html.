@@ -37,4 +37,4 @@ const [n,v,b]=e.children;n.oninput=()=>{d[0]=n.value;save()};v.oninput=()=>{d[1]
 b.onclick=()=>{c.dep.splice(i,1);save();rendu()};liste.appendChild(e)});save();}
 function ajout(){cur().dep.push(["Nouvelle dépense",0]);save();rendu();}
 s.oninput=()=>{cur().sal=s.value;save()};m.onchange=rendu;rendu();
-</script></body></html>
+</script></body></html> 
